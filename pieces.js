@@ -35,8 +35,6 @@ for (let i = 0; i < pieces.length; i++) {
     pieceElement.appendChild(stockElement);
 
  }
-<<<<<<< HEAD
-=======
  
  //gestion des bouttons 
 const boutonTrier = document.querySelector(".btn-trier");
@@ -77,4 +75,3 @@ boutonNoDescription.addEventListener("click", function () {
     });
    console.log(piecesFiltrees)
 });
->>>>>>> 735ac008dee98ba83fe741e58534c400ea5c4679

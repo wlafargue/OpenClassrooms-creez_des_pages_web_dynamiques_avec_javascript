@@ -60,8 +60,6 @@ function genererPieces(pieces){
 
 genererPieces(pieces);
 
-<<<<<<< HEAD
-=======
 for(let i = 0; i < pieces.length; i++){
     const id = pieces[i].id;
     const avisJSON = window.localStorage.getItem(`avis-piece-${id}`);
@@ -73,7 +71,6 @@ for(let i = 0; i < pieces.length; i++){
     }
 }
 
->>>>>>> a6fde37b2d4bcbffec27fa229650e17310198ed7
  //gestion des boutons 
 const boutonTrier = document.querySelector(".btn-trier");
 
@@ -139,14 +136,8 @@ document.querySelector('.abordables')
     .appendChild(pElement)
     .appendChild(abordablesElements);
 
-<<<<<<< HEAD
-//Code Exercice 
-const nomsDisponibles = pieces.map(piece => piece.nom);
-const prixDisponibles = pieces.map(piece => piece.prix);
-=======
 const nomsDisponibles = pieces.map(piece => piece.nom)
 const prixDisponibles = pieces.map(piece => piece.prix)
->>>>>>> a6fde37b2d4bcbffec27fa229650e17310198ed7
 
 for(let i = pieces.length -1 ; i >= 0; i--){
     if(pieces[i].disponibilite === false){
